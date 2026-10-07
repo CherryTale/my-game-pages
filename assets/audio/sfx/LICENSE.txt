@@ -1,0 +1,72 @@
+Edited sound effects — source attribution and license
+
+Sources 1–3 and 5–6 are published under Creative Commons Zero (CC0 1.0):
+https://creativecommons.org/publicdomain/zero/1.0/
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+CC0 permits copying, modification and distribution, including commercial use,
+without requesting permission or mandatory attribution. Credits are retained voluntarily.
+
+1. Impact Sounds — Kenney
+   https://kenney.nl/assets/impact-sounds
+   https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip
+   Source pack License.txt: Created/distributed by Kenney (www.kenney.nl).
+   Creation date: 19-12-2019. License: Creative Commons Zero, CC0.
+   Extract into impact/ (files: impact/Audio/*.ogg).
+   train-brake.wav: impactMetal_light_003 + impactWood_light_003, short trims,
+   layered with a 20 ms offset and damped with an additional 1400 Hz lowpass.
+
+2. 7 mechanical clicks and buzzes — qubodup
+   https://opengameart.org/content/7-mechanical-clicks-and-buzzes
+   https://opengameart.org/sites/default/files/mechanical.7z
+   Source publication: October 4, 2009. License on publication page: CC0.
+   Extract into mechanical/ (files: mechanical/mechanical/*.flac).
+
+3. Metal Impact Sounds — BMacZero / Brian MacIntosh
+   https://opengameart.org/content/metal-impact-sounds
+   https://opengameart.org/sites/default/files/clink2.wav
+   Source publication: October 4, 2020. License on publication page: CC0.
+   Optional attribution requested: Brian MacIntosh.
+   Save clink2.wav in bmaczero/; output: rail-lift.wav.
+
+4. Mechanical Pack Vol 1 — JC Sounds (CC BY 4.0; NOT CC0)
+   https://opengameart.org/content/jc-sounds-mechanical-pack-vol-1
+   https://opengameart.org/sites/default/files/mechanical_pack_vol_1.7z
+   License: https://creativecommons.org/licenses/by/4.0/
+   Legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+   Required credit: JC Sounds.
+   Source: Single_Mechanical Pack Vol 1_Misc Mechanical Device Lock_Close_01.wav
+   Place that source file in jc/ under the preparation script's input directory.
+   Output: switch-E-device-lock.wav (manual rotation and simulation turnout switching).
+   Changes: mono conversion, DC removal, extraction of the final strike (0.334 s to end),
+   level adjustment and 1 ms attack / 8 ms release fades; original sample rate and pitch retained.
+   These edited files are distributed under CC BY 4.0. Attribution and license link
+   are retained here and in the in-game About screen; no endorsement is implied.
+
+Project modifications for source packs 1–3: trimming, mono conversion, DC removal, band-pass filtering,
+resampling, attack/release fades, layering and peak limiting. Output: 32 kHz PCM16 WAV.
+Each output's exact source layers, timing and gains are in scripts/prepare-sound-effects.py.
+Source/output hashes and processing parameters are kept in the source repository at public/assets/audio/sfx/processing.json.
+These are edited material/foley sounds, not recordings of the game's specific trains.
+Edits of source packs 1–3 are also provided under CC0 1.0.
+The JC Sounds edits (item 4) remain CC BY 4.0.
+
+5. Air (or steam) pressure release — brunoboselli (CC0 1.0)
+   https://freesound.org/people/brunoboselli/sounds/457294/
+   Source publication: January 25, 2019. License: Creative Commons 0.
+   Studio recording of an inflatable stand-up board being deflated, edited for air/steam foley.
+   Download: https://cdn.freesound.org/previews/457/457294_300738-hq.mp3
+   Save as steam-search/pressure-release.mp3 under the preparation script input directory.
+   Output: steam-stop-soft.wav, also provided under CC0 1.0.
+   Changes: extract 0.8–1.12 s, mono, DC removal, 180 Hz highpass / 1800 Hz lowpass,
+   38 ms attack, power 1.6 decay, 50 ms release, level adjustment, 32 kHz PCM16.
+   Used for the soft pressure release when reaching a facility stop.
+
+6. Train whistle, foley #6 — Joseph SARDIN & Axeline T. (CC0)
+   https://bigsoundbank.com/train-whistle-foley-6-s3320.html
+   Download: https://bigsoundbank.com/UPLOAD/bwf-en/3320.wav
+   Save as whistle-v4/foley.wav under the preparation script input directory.
+   Output: train-whistle-b-short.wav, also provided under CC0.
+   Changes: source 0.72–0.97 s + 1.83–2.08 s, 30 ms crossfade to shorten sustain;
+   mono, DC removal, 100 Hz highpass / 2600 Hz lowpass, 30 ms attack / 90 ms release,
+   RMS 0.04 / peak cap 0.35, 32 kHz PCM16, 6 ms end silence. Original pitch retained.
+   Duration: 0.476 s. Used when a train starts or resumes actual motion, and when dispatched.

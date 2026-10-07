@@ -1,0 +1,13 @@
+Somewhere in the Elevator by Peachtea@You're Perfect Studio
+Source: https://opengameart.org/content/somewhere-in-the-elevator
+Audio: https://opengameart.org/sites/default/files/Peachtea%20-%20Somewhere%20in%20the%20Elevator_1.ogg
+
+The source page offers CC BY 4.0, CC BY 3.0, OGA BY 3.0 and CC0.
+This project uses the CC0 1.0 option:
+https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Attribution above is retained voluntarily.
+
+Original OGG preserved. Runtime loop uses 0–61.44 seconds with a 5 ms
+anti-click envelope at each boundary. Homepage animation uses the
+measured 125 BPM beat spacing.

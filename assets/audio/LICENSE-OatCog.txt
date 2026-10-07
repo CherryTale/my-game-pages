@@ -1,0 +1,11 @@
+Coffee House Bump — OatCog
+Source: https://opengameart.org/content/coffee-house-bump
+Original file: https://opengameart.org/sites/default/files/little_cafe_0.wav
+Published: 2021-07-24
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The source page labels this work CC0. Attribution is not required.
+This project credits OatCog and distributes an edited Ogg Vorbis loop:
+original 19.2–134.4 seconds, 40 ms boundary blend, followed by a runtime
+5 ms de-click envelope. See README.md for processing details.
